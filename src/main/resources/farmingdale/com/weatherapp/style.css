@@ -1,0 +1,91 @@
+* {
+    -fx-font-family: "Segoe UI";
+}
+
+#root {
+    -fx-background-color: #1a1a1a;
+}
+
+#header {
+    -fx-background-color: linear-gradient(to right, #0066cc, #0099ff);
+}
+
+#sidebar {
+    -fx-background-color: #2a2a2a;
+    -fx-border-color: #444444;
+    -fx-border-width: 0 1 0 0;
+}
+
+#center {
+    -fx-background-color: #1a1a1a;
+}
+
+#footer {
+    -fx-background-color: #0a0a0a;
+    -fx-border-color: #444444;
+    -fx-border-width: 1 0 0 0;
+}
+
+#analyze-button {
+    -fx-background-color: linear-gradient(to right, #0066cc, #0099ff);
+    -fx-text-fill: white;
+    -fx-font-weight: bold;
+    -fx-padding: 10;
+    -fx-cursor: hand;
+}
+
+#analyze-button:hover {
+    -fx-background-color: linear-gradient(to right, #0052a3, #0088dd);
+}
+
+#month-combo, #threshold-spinner {
+    -fx-background-color: #1e1e1e;
+    -fx-text-fill: #e0e0e0;
+    -fx-border-color: #0099ff;
+}
+
+#tab-pane {
+    -fx-background-color: #1a1a1a;
+}
+
+.tab {
+    -fx-background-color: #2a2a2a;
+}
+
+.tab:selected {
+    -fx-background-color: #0099ff;
+}
+
+#days-list, #data-table {
+    -fx-control-inner-background: #2a2a2a;
+    -fx-text-fill: #e0e0e0;
+}
+
+.table-row-cell:selected,
+.list-cell:filled:selected {
+    -fx-background-color: #0099ff;
+}
+
+.table-view .column-header-background {
+    -fx-background-color: #2a2a2a;
+}
+
+.table-view .column-header,
+.table-view .column-header .label {
+    -fx-text-fill: black;
+    -fx-font-weight: bold;
+}
+
+#temperature-chart {
+    -fx-background-color: #1e1e1e;
+}
+
+.chart-title,
+.axis-label,
+.tick-label {
+    -fx-fill: black;
+}
+
+Label {
+    -fx-text-fill: #e0e0e0;
+}
